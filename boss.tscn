@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dehghwonl2hyp"]
+
+[node name="Boss" type="Node2D" unique_id=23870975]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=931068612]
+texture_filter = 1
+position = Vector2(643, 607)

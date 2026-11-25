@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cb7hhef7yced"]
+
+[ext_resource type="Texture2D" uid="uid://b58vpicag6rtp" path="res://porcupine-removebg-preview.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dbn3onkql0swo" path="res://player.gd" id="2_onrkg"]
+
+[node name="Player" type="Node2D" unique_id=1604513170]
+script = ExtResource("2_onrkg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=627625737]
+texture = ExtResource("1_4flbx")

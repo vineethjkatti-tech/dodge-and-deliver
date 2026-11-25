@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://beo4p1duj3hi0"]
+
+[ext_resource type="PackedScene" uid="uid://dehghwonl2hyp" path="res://boss.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cb7hhef7yced" path="res://player.tscn" id="2_0xm2m"]
+
+[node name="Node2D" type="Node2D" unique_id=1546564847]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=839280885]
+
+[node name="Boss" parent="." unique_id=23870975 instance=ExtResource("1_ig7tw")]
+
+[node name="Player" parent="." unique_id=1604513170 instance=ExtResource("2_0xm2m")]
+position = Vector2(600, 600)
+center_x = 600.94
