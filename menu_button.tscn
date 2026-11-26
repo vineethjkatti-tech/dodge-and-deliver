@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dp0e5jc7tnmsc"]
+
+[ext_resource type="Texture2D" uid="uid://v7wju3yqp0ce" path="res://button_2-removebg-preview.png" id="1_cpvkq"]
+[ext_resource type="Texture2D" uid="uid://dvb3lksvnbq5i" path="res://button_1-removebg-preview.png" id="2_0jsjh"]
+[ext_resource type="Script" uid="uid://d2giht6bnrovo" path="res://menu_button.gd" id="3_0jsjh"]
+
+[node name="MenuButton" type="TextureButton" unique_id=315604630]
+custom_minimum_size = Vector2(260, 80)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_cpvkq")
+texture_hover = ExtResource("2_0jsjh")
+stretch_mode = 5
+script = ExtResource("3_0jsjh")
+
+[node name="Label" type="Label" parent="." unique_id=691726502]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.9882353, 0.9372549, 0.9372549, 1)
+theme_override_colors/font_outline_color = Color(0.34117648, 0, 0.015686275, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 100
+text = "Quit
+"
+horizontal_alignment = 1
+vertical_alignment = 1

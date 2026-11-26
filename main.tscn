@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dehghwonl2hyp" path="res://boss.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://cb7hhef7yced" path="res://player.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dp0e5jc7tnmsc" path="res://menu_button.tscn" id="3_h2yge"]
 
 [node name="Node2D" type="Node2D" unique_id=1546564847]
 
@@ -12,3 +13,20 @@
 [node name="Player" parent="." unique_id=1604513170 instance=ExtResource("2_0xm2m")]
 position = Vector2(600, 600)
 center_x = 600.94
+
+[node name="PlayButton" parent="." unique_id=315604630 instance=ExtResource("3_h2yge")]
+
+[node name="Label" parent="PlayButton" index="0" unique_id=691726502]
+text = "
+play
+"
+
+[node name="QuitButton" parent="." unique_id=1866353060 instance=ExtResource("3_h2yge")]
+
+[node name="Label" parent="QuitButton" index="0" unique_id=691726502]
+text = "
+Quit
+"
+
+[editable path="PlayButton"]
+[editable path="QuitButton"]
