@@ -1,7 +1,18 @@
 [gd_scene format=3 uid="uid://dehghwonl2hyp"]
 
+[ext_resource type="Texture2D" uid="uid://b58vpicag6rtp" path="res://porcupine-removebg-preview.png" id="1_0bnu1"]
+[ext_resource type="Script" uid="uid://qebmmdbchx7y" path="res://boss.gd" id="1_6xxrv"]
+
 [node name="Boss" type="Node2D" unique_id=23870975]
+script = ExtResource("1_6xxrv")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=931068612]
 texture_filter = 1
 position = Vector2(643, 607)
+texture = ExtResource("1_0bnu1")
+
+[node name="TelegraphLeft" type="StatusIndicator" parent="." unique_id=1888828338]
+visible = false
+
+[node name="TelegraphRight" type="StatusIndicator" parent="." unique_id=1160048524]
+visible = false

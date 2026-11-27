@@ -9,9 +9,11 @@
 [node name="Background" type="Sprite2D" parent="." unique_id=839280885]
 
 [node name="Boss" parent="." unique_id=23870975 instance=ExtResource("1_ig7tw")]
+position = Vector2(0, -449.34)
 
 [node name="Player" parent="." unique_id=1604513170 instance=ExtResource("2_0xm2m")]
-position = Vector2(600, 600)
+position = Vector2(600, 476.915)
+scale = Vector2(1.3, 1.3)
 center_x = 600.94
 
 [node name="PlayButton" parent="." unique_id=315604630 instance=ExtResource("3_h2yge")]
